@@ -20,19 +20,20 @@
     <main>
         <div>
             <!-- <i class="fa-solid fa-monkey"></i> -->
-            <form action="/" method="get"></form>
+            <form action="/" method="get">
             <fieldset>
                 <legend>Email</legend>
                 <label>
-                     <input type="email" name="user">
+                     <input type="email" name="user" required>
                 </label>
                 <legend>Username</legend>
                 <label>
-                    <input type="text" name="username">
+                    <input type="text" name="username" required>
                 </label>
                 <legend>Password</legend>
                 <label>
-                    <input type="password" name="Pwd">
+                    <input type="password" name="Pwd" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required>
+                    <!-- (UpperCase, LowerCase, Number/SpecialChar and min 8 Chars) -->
                     <ul>
                         <li>One lowercase character</li>
                         <li>One uppercase character</li>
@@ -41,14 +42,11 @@
                         <li>8 characters minimum</li>
                     </ul>
                 </label>
-                <label>
-                    <input type="submit" value="Sign Up">
-                    <input type="checkbox" name="newsletter">
-                    <span>I don't want to receive emails about new Mailchimp products, best practices, or special offers.</span>
-                </label>
-                
             </fieldset>
-            
+            <input type="submit" value="Sign Up">
+            <input type="checkbox" name="newsletter">
+            <span>I don't want to receive emails about new Mailchimp products, best practices, or special offers.</span>
+        </form>
         </div>
     </main>
     <footer>
