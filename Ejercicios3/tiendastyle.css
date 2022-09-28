@@ -1,0 +1,60 @@
+.header-box {
+    background-color: antiquewhite;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-box {
+    background-color: bisque;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 50px 10px;
+}
+
+.light {
+    font-weight: 100;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.signin {
+    display: flex;
+    justify-content: center;
+}
+
+#mail {
+    width: 400px;
+    min-width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-box {
+    background-color: azure;
+    margin: auto;
+}
+
+.footer {
+    display: inline-flex;
+}
+
+li {
+    list-style: none;
+}
