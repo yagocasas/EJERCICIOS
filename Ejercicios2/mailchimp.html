@@ -30,15 +30,15 @@
         <form action="/" method="get">
           <label>
             <p>Email</p>
-            <input type="email" name="user" required />
+            <input class="dates" type="email" name="user" required />
           </label>
           <label>
             <p>Username</p>
-            <input type="text" name="username" required />
+            <input class="dates" type="text" name="username" required />
           </label>
           <label>
             <p>Password</p>
-            <input
+            <input class="dates"
               type="password"
               name="Pwd"
               pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
@@ -55,18 +55,18 @@
               </ul>
             </div>
           </label>
-          <div>
-            <div class="">
+          <div class="form__signup">
+             <div>
               <input class="signbox" type="submit" value="Sign Up" />
             </div>
             <div>
-              <input type="checkbox" name="newsletter" />
+              <input type="checkbox" name="consent" />
             </div>
             <div>
-              <p>I don't want to receive emails about new Mailchimp products,
+                <p>I don't want to receive emails about new Mailchimp products,
                 best practices, or special offers.</p>
             </div>
-          </div>
+          </div> 
         </form>
       </div>
     </main>

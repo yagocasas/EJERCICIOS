@@ -1,3 +1,8 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
 aside {
     margin-bottom: -250px;;
     margin-top: 50px;
@@ -9,36 +14,47 @@ aside {
 }
 
 .header__box {
-    margin-left: 200px;
+    padding-left: 220px;
     width: 500px;
     max-width: 500px;
     height: 100px;
-    background-color: rgb(192, 230, 143);
 }
 
 
 .items ul {
     columns: 2;
+    
 }
 
+
 .main__box {
-    margin-left: 200px;
+    padding-left: 220px;
     width: 500px;
     max-width: 500px;
-    height: 400px;
+    height: 430px;
 }
 
 .footer__box {
-    margin-left: 200px;
-    background-color: aquamarine;
+    padding-left: 220px;
     max-width: 500px;
+    font-size: 14px;
     
 }
 
 .signbox {
-    width: 120px;
+    width: 100px;
     height: 40px;
-    background-color: rgb(234, 243, 243, 0.5);
-    border-color: antiquewhite;
-    color:rgb(215, 224, 205)
+    background-color: transparent;
+    border-color: rgb(227, 224, 221);
+    color:rgb(227, 224, 221)
+}
+
+.form__signup {
+    display: flex;
+    flex-direction: row;
+}
+
+.dates {
+    width: 500px;
+    height: 30px;
 }
