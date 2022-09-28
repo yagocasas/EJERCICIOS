@@ -1,15 +1,21 @@
 aside {
-    margin-bottom: -250px;
+    margin-bottom: -250px;;
+    margin-top: 50px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
 }
 
 header {
-    margin-left: 300px;
+    margin-left: 200px;
 }
 
 main {
-    margin-left: 300px;
+    margin-left: 200px;
 }
 
 footer {
-    margin-left: 300px;
+    margin-left: 200px;
 }
