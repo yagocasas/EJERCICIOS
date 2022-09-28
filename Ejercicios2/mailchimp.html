@@ -21,7 +21,7 @@
         <p>
           Find your people. Engage your customers. Build your brand. Do it all
           with Mailchimp's Marketing Platform. Already have an account?
-          <a href="">Log in</a>
+          <a class="log" href="">Log in</a>
         </p>
       </div>
     </header>
@@ -38,40 +38,53 @@
           </label>
           <label>
             <p>Password</p>
-            <input class="dates"
+            <div class="showcontent">
+              <img
+                class="eyeimage"
+                src="https://img2.freepng.es/20171216/c47/eye-png-5a350088aa1cd6.6820187515134229846968.jpg"
+                alt="eye"
+              />
+              <span>Show</span>
+            </div>
+            <input
+              class="dates"
               type="password"
               name="Pwd"
               pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
               required
             />
             <!-- (UpperCase, LowerCase, Number/SpecialChar and min 8 Chars) -->
-            <div class="items">
-              <ul>
-                <li>One lowercase character</li>
-                <li>One uppercase character</li>
-                <li>One number</li>
-                <li>One special character</li>
-                <li>8 characters minimum</li>
-              </ul>
-            </div>
           </label>
+          <div class="items">
+            <ul>
+              <li>One lowercase character</li>
+              <li>One uppercase character</li>
+              <li>One number</li>
+              <li>One special character</li>
+              <li>8 characters minimum</li>
+            </ul>
+          </div>
+
           <div class="form__signup">
-             <div>
+            <div>
               <input class="signbox" type="submit" value="Sign Up" />
             </div>
             <div>
               <input type="checkbox" name="consent" />
             </div>
             <div>
-                <p>I don't want to receive emails about new Mailchimp products,
-                best practices, or special offers.</p>
+              <p>
+                I don't want to receive emails about new Mailchimp products,
+                best practices, or special offers.
+              </p>
             </div>
-          </div> 
+          </div>
         </form>
       </div>
     </main>
     <footer class="footer__box">
-      <p>By clicking the "Sign Up" button, yo are creating a Mailchip account ,
+      <p>
+        By clicking the "Sign Up" button, yo are creating a Mailchip account ,
         and you agree to Mailchimp's <a href="">Terms of Use</a> and
         <a href="">Privacy Policy</a>
       </p>
