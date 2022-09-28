@@ -26,11 +26,19 @@ aside {
     width: 500px;
     max-width: 500px;
     height: 400px;
-    background-color: antiquewhite;
 }
 
 .footer__box {
     margin-left: 200px;
     background-color: aquamarine;
     max-width: 500px;
+    
+}
+
+.signbox {
+    width: 120px;
+    height: 40px;
+    background-color: rgb(234, 243, 243, 0.5);
+    border-color: antiquewhite;
+    color:rgb(215, 224, 205)
 }
