@@ -21,8 +21,10 @@ nav {
     height: 300px;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: center;
     padding: 50px 10px;
+    align-items: flex-end;
+    flex-direction: column;
 }
 
 .light {
