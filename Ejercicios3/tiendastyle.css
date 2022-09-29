@@ -7,6 +7,18 @@ nav {
     justify-content: space-between;
 }
 
+.titulo {
+    margin-top: 120px;
+    margin-left: 260px;
+}
+
+.menu {
+    position: absolute;
+    margin-top: 120px;
+    text-decoration: none;
+     /*no se aplica text-decoration: */;
+}
+
  .search {
     margin-top: 70%;
 }
@@ -20,14 +32,13 @@ nav {
     justify-content: space-around;
 }
 
-.image {
+.product {
     width: 200px;
     height: 300px;
     display: flex;
-    flex-wrap: nowrap;
     justify-content: center;
-    padding: 50px 10px;
-    align-items: flex-end;
+    padding: 20px 2px;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -35,14 +46,20 @@ nav {
     font-weight: 100;
 }
 
+p {
+    margin: 0px;
+}
+
 h1 {
     display: flex;
     justify-content: center;
+    
 }
 
 .signin {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #mail {
@@ -55,12 +72,15 @@ h1 {
 .footer-box {
     background-color: azure;
     margin: auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer {
     display: inline-flex;
+    
 }
 
-li {
+ul {
     list-style: none;
 }
