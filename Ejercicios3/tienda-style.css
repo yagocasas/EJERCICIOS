@@ -1,5 +1,5 @@
 .header-box {
-    background-color: antiquewhite;
+    background-color: rgb(254, 254, 254);    
 }
 
 nav {
@@ -20,11 +20,14 @@ nav {
 }
 
  .search {
-    margin-top: 70%;
+    width: 415px;
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .main-box {
-    background-color: bisque;
+    background-color: rgb(252, 252, 252);
 }
 
 .row {
@@ -40,6 +43,7 @@ nav {
     padding: 20px 2px;
     align-items: center;
     flex-direction: column;
+    object-fit: contain;
 }
 
 .light {
@@ -53,10 +57,11 @@ p {
 h1 {
     display: flex;
     justify-content: center;
-    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
 }
 
-.signin {
+.sign-in {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -70,7 +75,7 @@ h1 {
 }
 
 .footer-box {
-    background-color: azure;
+    background-color: rgb(255, 255, 255);
     margin: auto;
     display: flex;
     justify-content: space-around;
