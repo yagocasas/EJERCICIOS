@@ -7,33 +7,50 @@ nav {
     justify-content: space-between;
 }
 
-.titulo {
-    margin-top: 120px;
-    margin-left: 260px;
+.tittle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 450px;
 }
 
 .menu {
     position: fixed;
-    top: 120px;
-    left: 20px;
+    margin: 10px;
     text-decoration: none;
      /*no se aplica text-decoration: */;
 }
 
- .search {
-    width: 415px;
-    margin-top: 150px;
+ form {
+    height: 120px;
+    width: 450px;
     display: flex;
-    flex-wrap: wrap;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.label1 {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 12px;
 }
 
 .main-box {
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(255, 255, 255);
 }
 
 .row {
     display: flex;
     justify-content: space-around;
+    object-fit: cover ;
 }
 
 .product {
@@ -85,6 +102,10 @@ h1 {
 .footer {
     display: inline-flex;
     
+}
+
+hr {
+    width: 400px;
 }
 
 ul {
