@@ -7,6 +7,10 @@ nav {
     justify-content: space-between;
 }
 
+ .search {
+    margin-top: 70%;
+}
+
 .main-box {
     background-color: bisque;
 }
