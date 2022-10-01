@@ -11,6 +11,7 @@ nav {
     display: flex;
     flex-direction: column;
     margin-left: 450px;
+    max-width: 500px;
 }
 
 .menu {
@@ -20,7 +21,72 @@ nav {
      /*no se aplica text-decoration: */;
 }
 
- form {
+.primary-nav {
+    height: 100%;
+    display: flex;
+    text-align: center;
+    position: relative;
+  }
+  .search-on-web {
+    position: absolute;
+    top: 25px;
+    display: flex;
+    right: 10px;
+    width: 350px;
+    justify-content: space-between;
+    font-size: 18px;
+  }
+  .search-on-web a {
+    color: black;
+  }
+  #search {
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    text-align: left;
+    padding: 0.3em 1.3em;
+    text-align: left;
+    margin-right: 5px;
+    width: 280px;
+  }
+  #glass {
+    position: absolute;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  .filters {
+    display: flex;
+    width: 320px;
+    height: 50px;
+    justify-content: space-around;
+    align-self: flex-end;
+    position: absolute;
+    right: 5px;
+    top: 80px;
+  }
+  .view-select {
+    display: flex;
+    width: 35%;
+    justify-content: space-evenly;
+  }
+  .card-display {
+    display: flex;
+  
+    width: 25%;
+    justify-content: space-between;
+  }
+  #select-view-4-columns {
+    color: green;
+  }
+  .filters select {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+  }
+  
+
+ /* form {
     height: 120px;
     width: 450px;
     display: flex;
@@ -36,12 +102,24 @@ nav {
 }
 
 .label1 {
+    display: flex;
+    justify-content: left;
+    width: 400px;
+    margin-right: 25px;
+}
+
+#search {
+    width: 310px;
+}
+
+
+.label2 {
     width: 450px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: right;
     font-size: 12px;
-}
+} */
 
 .main-box {
     background-color: rgb(255, 255, 255);
@@ -62,6 +140,7 @@ nav {
     align-items: center;
     flex-direction: column;
     object-fit: contain;
+    /* gap: 20px; */
 }
 
 .light {
@@ -86,8 +165,8 @@ h1 {
 }
 
 #mail {
-    width: 400px;
-    min-width: 400px;
+    width: 300px;
+    min-width: 300px;
     display: flex;
     justify-content: center;
 }
@@ -101,13 +180,18 @@ h1 {
 
 .footer {
     display: inline-flex;
+    /* text-decoration: none;
+    no apliqa */
     
 }
 
 hr {
     width: 400px;
+    font-weight: bold;
 }
 
 ul {
+    text-decoration: none;
     list-style: none;
+    /* no aplica */
 }

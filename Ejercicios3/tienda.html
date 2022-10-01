@@ -35,24 +35,62 @@
           <p>Mujer > Ropa > Camisetas > Licencias (51 artículos)</p>
         </div>
         <div>
-          <form action="">
+          <div class="primary-nav">
+            <div class="search-on-web">
+                <div class="magnifying-glass">
+                     <i id="glass" class="fas fa-search"></i>
+                     <input  id="search" type="search" name="search" placeholder="Buscar">
+                </div>
+                <a  class="user" href=""><i class="far fa-user"></i></a>
+                <a class="shopping-basket" href=""><i class="fas fa-shopping-basket"></i></a>
+            </div>
+
+            <div class="filters">
+                <div class="view-select">
+                    <p class="cards-view">VISTA</p>
+                    <div class="card-display">
+                        <p>2</p>
+                        <p id="select-view-4-columns">4</p>
+                    </div>
+                </div>
+
+                <div class="content-select">
+                    <select id="garment" name="garmentlist" form="garmentform">
+                       <option disabled selected>ORDENAR POR</option>
+                       <option value="disney">Disney</option>
+                       <option value="cine-and-tv">Cine y TV</option>
+                       <option value="music-groups">Grupos Musicales</option>
+                       <option value="brands">Marcas</option>
+                    </select>
+
+                    <select id="filter" name="filterlist" form="filterform">
+                        <option disabled selected>FILTROS</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+          <!-- <form action="">
             <div class="search">
-              <label>
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="search" name="search" placeholder="BUSCAR" />
-                <hr>
-                <a href=""><i class="fa-solid fa-user"></i></a>
-                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-              </label>
               <label class="label1">
-                <p>VISTA</p>
-                <a href="">2 </a>
-                <a href="">4 </a>
-                <a href="">ORDENAR POR </a>
-                <a href=""><option disabled selected>FILTROS</option></a>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input id="search" type="search" name="search" placeholder="BUSCAR" />
+              </label>
+                <hr>
+                <div class="icon">
+                  <a href=""><i class="fa-solid fa-user"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </label>
+              <label class="label2">
+                <button>VISTA</button>
+                <button>2 </label></button>
+                <button>4 </label></button>
+                <button>ORDENAR POR </label></button>
+                <button>FILTROS</button>
               </label>
             </div>
-          </form>
+          </form> -->
         </div>
       </nav>
     </header>
@@ -196,7 +234,7 @@
       <div class="footer">
         <ul>
           <p>Empresa</p>
-          <li><a href="">Quines somos</a></li>
+          <li><a href="">Quienes somos</a></li>
           <li><a href="">Oficinas</a></li>
           <li><a href="">Tiendas</a></li>
           <li><a href="">Localización de tiendas</a></li>
