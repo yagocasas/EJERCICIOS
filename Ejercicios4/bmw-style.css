@@ -84,7 +84,7 @@ header{
     width: 30vw;
 }
 
-a, i{
+a, i {
    color: white;
    text-decoration: none;
 }
@@ -134,4 +134,13 @@ img {
     color: white;
     text-decoration: none;
     padding: 12px 58px;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2pxn solid coral;
 }
