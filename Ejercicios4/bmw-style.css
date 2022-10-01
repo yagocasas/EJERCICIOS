@@ -172,14 +172,37 @@ main {
     font-size: 175%;
 }
 
-.cars-list {
-   width: 80%;
-
+.main__img {
+    display: grid;
+    grid-template-areas: "a a a a";
 }
 
 .car-model img{
-    width: 400px;
-    height: 400px;
-    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    padding: 38px 30px;
+    
 }
 
+.car-info a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.car-config{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: black;
+}
+
+.car-config img {
+    width: 10px;
+    height: 10px;
+}
+
+.car-config a {
+    color: black;
+}
