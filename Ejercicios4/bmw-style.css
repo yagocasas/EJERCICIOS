@@ -127,7 +127,7 @@ img {
     align-items: center;
 }
 
-.find-out a {
+.header__content a {
 
     background-color: rgb(10, 94, 162);
     font-size: 12px;
@@ -137,10 +137,38 @@ img {
 }
 
 main {
+    padding: 80px 0 30px;
     width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 2pxn solid coral;
+    background-color: aqua;
+}
+
+.main__series {
+    font-size: larger;
+    color: rgb(192, 189, 189);
+    font-weight: 600;
+}
+
+.principal__main ul{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    list-style: none;
+}
+
+.dir {
+    color: rgb(192, 189, 189)
+}
+
+.dir:hover{
+    color: black;
+    text-decoration: underline blue;
+    font-size: 175%;
 }
