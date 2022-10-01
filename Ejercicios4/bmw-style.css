@@ -143,7 +143,6 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: aqua;
 }
 
 .main__series {
@@ -172,3 +171,15 @@ main {
     text-decoration: underline blue;
     font-size: 175%;
 }
+
+.cars-list {
+   width: 80%;
+
+}
+
+.car-model img{
+    width: 400px;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
