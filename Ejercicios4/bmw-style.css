@@ -52,7 +52,6 @@ table {
 body {
     width: 100%;
     margin: 0 auto;
-
 }
 
 header{
@@ -141,16 +140,16 @@ main {
     padding: 80px 0 30px;
     width: 90%;
     margin: 0 auto;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; */
+    background-color: rgb(85, 225, 230);
 }
 
 .main__series {
     font-size: larger;
     color: rgb(192, 189, 189);
-    font-weight: 600;
-    
+    font-weight: 600; 
 }
 
 .principal__main ul{
@@ -166,21 +165,22 @@ main {
 }
 
 .dir {
-    color: rgb(192, 189, 189)
+    color: rgb(192, 189, 189);
+}
+.dir i{
+    color: rgb(192, 189, 189);
 }
 
 .dir:hover{
     color: black;
     text-decoration: underline blue;
     font-size: 150%;
-    
-
-
 }
 
 .main__img {
     display: grid;
     grid-template-areas: "a a a a";
+    padding-bottom: 100px;
 }
 
 .car-model {
@@ -191,8 +191,7 @@ main {
 .car-model img{
     width: 300px;
     height: 300px;
-    padding: 38px 30px;
-    
+    padding: 38px 30px;    
 }
 
 .car-info a {
