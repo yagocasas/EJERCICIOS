@@ -84,10 +84,12 @@ header{
     width: 30vw;
 }
 
+
 a, i {
    color: white;
    text-decoration: none;
 }
+
 
 .right-menu {
     display: flex;
@@ -110,7 +112,6 @@ img {
     /* width: 56vw; */
     height: 190px;
     margin-left: 5vw;
-
 }
 
 .header__content h1 {
@@ -185,7 +186,7 @@ main {
 .car-model {
     display: flex;
     justify-content: center;
-    
+
 }
 .car-model img{
     width: 300px;

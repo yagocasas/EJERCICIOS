@@ -21,7 +21,7 @@ nav {
      /*no se aplica text-decoration: */;
 }
 
-.primary-nav {
+/* .primary-nav {
     height: 100%;
     display: flex;
     text-align: center;
@@ -83,10 +83,10 @@ nav {
     background-color: transparent;
     border: none;
     font-size: 15px;
-  }
+  } */
   
 
- /* form {
+ form {
     height: 120px;
     width: 450px;
     display: flex;
@@ -119,7 +119,7 @@ nav {
     flex-direction: row;
     justify-content: right;
     font-size: 12px;
-} */
+}
 
 .main-box {
     background-color: rgb(255, 255, 255);
