@@ -16,14 +16,12 @@ footer {
 
 .footer__item {
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
 }
 
 .legal  {
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    background-color: aquamarine;
 }
 
 .right ul{
