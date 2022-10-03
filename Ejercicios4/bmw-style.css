@@ -83,8 +83,9 @@ header{
 }
 
 
-a, i {
+.left-menu a, i {
    text-decoration: none;
+   color: white;
 }
 
 
